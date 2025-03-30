@@ -19,20 +19,24 @@ This project implements an **MLOps pipeline** for **predictive maintenance in ve
 
 ---
 
+
 ## 🔧 **Installation & Setup**  
 
 ### **1️⃣ Clone the Repository**  
-```bash
-git clone https://github.com/your_username/MLOps-Integrated-Predictive-Maintenance.git  
-cd MLOps-Integrated-Predictive-Maintenance
+git clone https://github.com/sanjanmiller/MLOps-Integrated-Predictive-Maintenance-and-Alerting-System.git  
+cd MLOps-Integrated-Predictive-Maintenance-and-Alerting-System
 
 ### **2️⃣ Install Dependencies**  
 pip install -r requirements.txt
 
-### **3️⃣ Start MLflow UI (to track experiment logs)**
-mlflow ui
-**📌 Navigate to http://127.0.0.1:5000 in your browser.**
+### **3️⃣ Start MLflow UI(for tracking the project)**  
+mlflow ui 
+📌 Open http://127.0.0.1:5000 in your browser to view MLflow logs.
 
-### **4️⃣ Run the Main Script**
+### **4️⃣ Run the Main Script**  
 python email_alerts_with_MLOps.py  
+
+
+
+
 
