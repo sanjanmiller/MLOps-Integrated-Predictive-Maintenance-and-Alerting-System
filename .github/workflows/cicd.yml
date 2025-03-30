@@ -1,0 +1,24 @@
+name: MLOps Workflow
+
+on: [push, pull_request]
+
+jobs:
+  test_script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run a Simple Test
+        run: |
+          python email_alerts_with_MLOps.py --test-run
