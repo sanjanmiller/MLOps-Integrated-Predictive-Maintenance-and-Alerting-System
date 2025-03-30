@@ -31,7 +31,6 @@ pip install -r requirements.txt
 
 ### **3️⃣ Start MLflow UI(for tracking the project)**  
 mlflow ui 
-
 📌 Open http://127.0.0.1:5000 in your browser to view MLflow logs.
 
 ### **4️⃣ Run the Main Script**  
